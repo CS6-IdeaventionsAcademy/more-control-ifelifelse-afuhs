@@ -101,12 +101,12 @@ elif cave_choice == "R" or cave_choice == "RIGHT":
     choice = right_cave()
     if choice == "T" or choice == "TORCH":
         print ("You walk towards the torch slowly.")
-        #TODO: Add death function for TORCH
+        
         torch_death()
     elif choice == "R" or choice == "ROPE":
         print ("You grab the rope and lower yourself down the hole.")
         print ("You hear a dragon breathing in the dark room.")
-        #TODO: Add Dragon Choice
+        
         choice = dragons_lair()
         if choice == "S" or choice == "SLAY":
             print ("You die!")
