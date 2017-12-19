@@ -86,7 +86,7 @@ if cave_choice == "L" or cave_choice == "LEFT":
     elif choice == "W" or choice == "WALK":
         print ("You start walking along the narrow edge of the river.")
         # Death Scene
-
+        wrong_answer()
     else:
           # Wrong answer
           wrong_answer()
